@@ -175,7 +175,8 @@ h1, h2 {
     vertical-align: middle;
   }
 .form__check:checked + .form__keep-me:before {
-    content: "x";
+    content: "\2714";
+    /* margin: 0 0 8px 0; */
 }
 
 .form__submit {
